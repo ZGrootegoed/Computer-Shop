@@ -1,0 +1,76 @@
+.container {
+    background-image: url("../images/Zlogo.png");
+    background-color: #F8F8F8;
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+
+    .h1A {
+        color: #E6E6E6;
+        background-color: #193A9F;
+        padding-bottom: 10px;
+        padding-left: 5px;
+        font-weight: bold;
+    }
+
+    .h2A {
+        color: #E6E6E6;
+        background-color: #193A9F;
+        padding-bottom: 10px;
+        padding-left: 5px;
+    }
+}
+
+.gridA {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 0px;
+}
+
+.Lc {
+    grid-area: 1 / 1 / 2 / 2;
+}
+.Rc {
+    grid-area: 1 / 2 / 2 / 2;
+}
+
+#Store {
+    border-radius: 25%;
+    display: block;
+    margin:auto;
+    transform: scale(0.75);
+}
+.centerButton {
+    display: block;
+    text-align: center;
+}
+.return {
+    padding-bottom: 5px;
+    text-align: center;
+    color: #E6E6E6;
+    background-color: #193A9F;
+}
+.returnlink {
+    text-align: center;
+    color: #E6E6E6;
+    background-color: #193A9F;
+    padding: 10px 15px;
+    border: 5px solid blue;
+    text-decoration: underline;
+}
+.returnlink:hover {
+    border-color: red;
+}
+
+ul {
+    list-style-type:none;
+}
+th {
+    padding: 5px;
+}
+td {
+    padding: 5px;
+}
