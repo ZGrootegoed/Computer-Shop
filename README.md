@@ -3,7 +3,7 @@ This project is a custom MVC web application utizing Java, Spring Framework and 
 
 ### Breakdown of project:
 
-Customized HTML front end to for user interface display including a NAV bar that redirects to the Home page and an About page. This utilizes Spring Framework to build this MVC application with a Maven dependency. 
+Customized HTML front end to for user interface display including a NAV bar that redirects to the Home page and an About page. This utilizes Spring Framework to build this MVC application with Maven dependency. 
 
 ### HOME PAGE:
 
@@ -23,16 +23,16 @@ Customized HTML front end to for user interface display including a NAV bar that
 
 ### INVENTORY:
 
-There is a BootStrap file where sample invetory of five products and five parts are created. There are conditional statements that ensure that products and parts are only added if the inventory lists are empty. As well as no duplications of the list when the application is rerun. 
+There is a BootStrap file where sample inventory of five products and five parts are created. There are conditional statements that ensure that products and parts are only added if the inventory lists are empty. As well as no duplications of the list when the application is rerun. 
 
 ### FUNCTIONALITIES:
 
-The Buy Now button on the product list is created with certain parameters and mapped. Conditional for checking if the inventory is zero otherwise the product gets decremented by 1. There are success and failure purchase screens that display upon clicking where the user can select to return to the home page. Mapping for those screes are in the main controller screen java file. 
+The Buy Now button on the product list is created with certain parameters and mapped. Conditional for checking if the inventory is zero otherwise the product gets decremented by 1. There are success and failure purchase screens that display upon clicking where the user can select to return to the home page. Mapping for those screens are in the main controller screen java file. 
 
 ### VALIDATIONS:
 
-Validations are created to track the maximum and minimum product and parts inventory. In the Part file there is a call method for the validator to check the inventory. The minimum value has an @min for positive values only. The min and max inventory data types are added to class where thee are getters and setters for them. If the inventory is not between the min and max value then an error message is displayed. This error message is in a catch all error list that displays the associated error message. Made it impossible to decrement below zero. 
+Validations are created to track the maximum and minimum product and parts inventory. In the Part file there is a call method for the validator to check the inventory. The minimum value has an @min for positive values only. The min and max inventory data types are added to class where there are getters and setters for them. If the inventory is not between the min and max value then an error message is displayed. This error message is in a catch all error list that displays the associated error message. Making it impossible to decrement below zero. 
 
 ### UNIT TESTS:
 
-There are two getter and setter unit tests for the maximum and minum fields in the PartTest Java class in the test package. 
+There are two getter and setter unit tests for the maximum and minimum fields in the PartTest Java class in the test package. 
