@@ -1,5 +1,5 @@
 ### About project:
-This project is a custom MVC web application utizing Java, Spring Framework and Libraries, and Maven. This application is a custom computer shop that runs to localhost: 8080. Some features of this application include the ability to add both inhouse and outsourced parts. Also able to make a purchase on a computer product and make updates to both the parts and products. The products can be updated to add specific parts to the products and will deincrement based on buy now purchases. 
+This project is a custom MVC web application utizing Java, Spring Framework and Libraries, and Maven. This application is a custom computer shop that runs to localhost: 8080. Some features of this application include the ability to add both inhouse and outsourced parts. Also able to make a purchase on a computer product and make updates to both the parts and products. The products can be updated to add specific parts to the products and will decrement based on buy now purchases. 
 
 ### Breakdown of project:
 
